@@ -50,11 +50,22 @@
 
 @font-face {
   font-family: 'Comfortaa-Bold';
-  src: url('../fonts/Comfortaa-Bold/Comfortaa-Bold.eot') format('embedded-opentype'), url('../fonts/Comfortaa-Bold/Comfortaa-Bold.woff2') format('woff2'), url('../fonts/Comfortaa-Bold/Comfortaa-Bold.woff') format('woff'), url('../fonts/Comfortaa-Bold/Comfortaa-Bold.ttf') format('truetype');
+  src: url('../fonts/Comfortaa/Comfortaa-Bold.eot') format('embedded-opentype'), url('../fonts/Comfortaa/Comfortaa-Bold.woff2') format('woff2'), url('../fonts/Comfortaa/Comfortaa-Bold.woff') format('woff'), url('../fonts/Comfortaa/Comfortaa-Bold.ttf') format('truetype');
 }
 
 @mixin Comfortaa-Bold() {
   font-family: Comfortaa-Bold;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Comfortaa-Regular';
+  src: url('../fonts/Comfortaa/Comfortaa-Regular.eot') format('embedded-opentype'), url('../fonts/Comfortaa/Comfortaa-Regular.woff2') format('woff2'), url('../fonts/Comfortaa/Comfortaa-Regular.woff') format('woff'), url('../fonts/Comfortaa/Comfortaa-Regular.ttf') format('truetype');
+}
+
+@mixin Comfortaa-Regular() {
+  font-family: Comfortaa-Regular;
   font-weight: normal;
   font-style: normal;
 }

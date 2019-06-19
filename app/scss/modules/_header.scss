@@ -1,13 +1,178 @@
+// header__top
+
 .header {
 
 	&__content {
 		max-width: 1280px;
 		margin: 0 auto;
-		padding: 50px 60px 24px;
+		padding: 54px 44px 18px 66px;
+	}
+
+	&__top {
+		display: flex;
+    	justify-content: space-between;
 	}
 
 	&__logo {
-		width: 252px;
+		width: 400px;
+	}
+
+	&__contact {
+		display: flex;
+	}
+
+	&__link {
+		display: flex;
+    	flex-direction: column;
+    	text-align: right;
+	}
+
+	&__phone {
+		color: #030303;
+		transition: .6s;
+		font-size: 16px;
+		margin-top: 12px;
+
+		&:hover {
+			color: #f59206;
+		}
+	}
+
+	&__email {
+		color: #008ad2;
+		text-decoration: underline;
+		transition: .6s;
+		font-size: 16px;
+
+		&:hover {
+			color: #f59206;
+		}
+	}
+
+	&__btn {
+		margin-top: 9px;
+		margin-left: 23px;
+	}
+}
+
+// header__bottom
+
+.header__bottom {
+	margin-top: 44px;
+}
+
+.menu {
+
+	&__item {
+		display: inline-block;
+
+		&--last {
+			float: right;
+			margin-top: 2px;
+    		margin-right: 12px;
+		}
+	}
+
+	&__link {
+		display: block;
+		color: #000;
+		transition: .6s;
+		text-transform: uppercase;
+		@include Comfortaa-Regular();
+		font-size: 14px;
+		font-weight: bold;
+		margin-right: 18px;
+
+		&:hover {
+			color: #0076cc;
+		}
+	}
+
+	&__icon {
+		display: none;
+  		padding: 6px 10px;
+	}
+}
+
+.menu-trigger {
+	color: #FF534B;
+	font-weight: bold;
+	display: none;
+	position: absolute;
+    top: 40px;
+    right: 20px;
+    z-index: 999999;
+}
+
+@media only screen and (max-width : 1024px) {
+	.header {
+
+		&__content {
+			padding: 40px 20px;
+		}
+
+		&__btn {
+			display: none;
+		}
+
+		&__top {
+			flex-direction: column;
+		}
+
+		&__logo {
+			width: 220px;
+		}
+
+		&__contact {
+			justify-content: flex-end;
+		}
+		
+	}
+
+	.menu {
+
+		&__link {
+			color: #fff;
+			padding-bottom: 20px;
+		}
+	}
+
+	.ul-trigger {
+		position: absolute;
+    	top: 0;
+    	left: 0;
+    	z-index: 8888;
+    	width: 100%;
+    	background: #0082cf;
+    	height: 100vh;
+    	padding: 40px 20px;
+	}
+
+	ul {
+		display: none;
+	}
+
+	.menu__item {
+		display: block;
+	}
+
+	.menu-trigger {
+		display: block;
 	}
 
 }
+
+@media only screen and (max-width : 1065px) {
+	.menu__item {
+
+		&--last {
+			float: inherit;
+		}
+	}
+}
+
+		
+
+		
+		
+	
