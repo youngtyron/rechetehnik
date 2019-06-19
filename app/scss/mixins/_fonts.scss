@@ -3,14 +3,58 @@
 @font-face {font-family: 'HelveticaNeueLTStd-Bd';src: url('../fonts/Helvetica/3387D5_0_0.eot');src: url('../fonts/Helvetica/3387D5_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/Helvetica/3387D5_0_0.woff2') format('woff2'),url('../fonts/Helvetica/3387D5_0_0.woff') format('woff'),url('../fonts/Helvetica/3387D5_0_0.ttf') format('truetype');}
 */
 
-
 @font-face {
-  font-family: 'Selina';
-  src: url('../fonts/Selina-Regular.eot') format('embedded-opentype'), url('../fonts/Selina-Regular.woff2') format('woff2'), url('../fonts/Selina-Regular.woff') format('woff'), url('../fonts/Selina-Regular.ttf') format('truetype');
+  font-family: 'Roboto-Regular';
+  src: url('../fonts/Roboto/Roboto-Regular.eot') format('embedded-opentype'), url('../fonts/Roboto/Roboto-Regular.woff2') format('woff2'), url('../fonts/Roboto/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
 }
 
-@mixin Selina() {
-  font-family: Selina;
+@mixin Roboto-Regular() {
+  font-family: Roboto-Regular;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('../fonts/Roboto/Roboto-Bold.eot') format('embedded-opentype'), url('../fonts/Roboto/Roboto-Bold.woff2') format('woff2'), url('../fonts/Roboto/Roboto-Bold.woff') format('woff'), url('../fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+}
+
+@mixin Roboto-Bold() {
+  font-family: Roboto-Bold;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-Bold';
+  src: url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.eot') format('embedded-opentype'), url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.woff2') format('woff2'), url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.woff') format('woff'), url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.ttf') format('truetype');
+}
+
+@mixin HelveticaNeueCyr-Bold() {
+  font-family: HelveticaNeueCyr-Bold;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-Roman';
+  src: url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.eot') format('embedded-opentype'), url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff2') format('woff2'), url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff') format('woff'), url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.ttf') format('truetype');
+}
+
+@mixin HelveticaNeueCyr-Roman() {
+  font-family: HelveticaNeueCyr-Roman;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Comfortaa-Bold';
+  src: url('../fonts/Comfortaa-Bold/Comfortaa-Bold.eot') format('embedded-opentype'), url('../fonts/Comfortaa-Bold/Comfortaa-Bold.woff2') format('woff2'), url('../fonts/Comfortaa-Bold/Comfortaa-Bold.woff') format('woff'), url('../fonts/Comfortaa-Bold/Comfortaa-Bold.ttf') format('truetype');
+}
+
+@mixin Comfortaa-Bold() {
+  font-family: Comfortaa-Bold;
   font-weight: normal;
   font-style: normal;
 }

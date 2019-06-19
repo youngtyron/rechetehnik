@@ -1,0 +1,64 @@
+// training
+
+.training {
+
+	background: url(../img/training__bg.jpg) no-repeat center;
+
+	&__title {
+		color: #fff;
+	}
+
+	&__content {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 58px 60px 123px;
+		text-align: center;
+	}
+}
+
+// timetable
+
+.timetable {
+	background: #fff;
+
+	&__content {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 58px 60px 123px;
+		text-align: center;
+	}
+
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		text-align: left;
+		margin-top: 50px;
+	}
+
+	&__item {
+		width: calc(33.3% - 20px);
+		border: 1px solid #d4d1d1;
+	}
+}
+
+// customers
+
+.customers {
+	background: #f8f8f8;
+
+	&__content {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 58px 60px 123px;
+		text-align: center;
+	}
+}
+
+// title
+
+.main__title {
+	@include Comfortaa-Bold();
+	text-transform: uppercase;
+	font-size: 42px;
+	line-height: 45px;
+}

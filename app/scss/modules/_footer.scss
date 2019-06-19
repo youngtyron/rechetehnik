@@ -1,0 +1,108 @@
+.footer {
+	background: #1a1a1a;
+	color: #fff;
+	font-size: 16px;
+	line-height: 21px;
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 58px 60px 123px;
+	}
+
+	&__social {
+		max-width: 450px;
+		margin-right: 90px;
+	}
+
+	&__logo {
+		width: 252px;
+	}
+
+	&__text {
+		margin-top: 30px;
+	}
+
+	&__menu {
+		max-width: 270px;
+		display: flex;
+		margin-top: 74px;
+	}
+
+	&__list {
+		margin-right: 60px;
+	}
+
+	&__item {
+		margin-bottom: 5px;
+	}
+
+	&__link {
+		text-decoration: underline;
+		transition: .6s;
+
+		&:hover {
+			color: #f59206;
+		}
+	}
+
+	&__contact {
+		max-width: 250px;
+		margin-top: 74px;
+	}
+
+	&__phone {
+		transition: .6s;
+
+		&:hover {
+			color: #f59206;
+		}
+	}
+
+	&__email {
+		display: inline-block;
+		margin-top: 10px;
+		text-decoration: underline;
+		transition: .6s;
+
+		&:hover {
+			color: #f59206;
+		}
+	}
+}
+
+.icon {
+	margin-top: 25px;
+
+	&__link {
+		margin-right: 5px;
+	}
+	&__img {
+		width: 30px;
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+	.footer {
+
+		&__content {
+			flex-direction: column;
+			padding: 60px 20px;
+		}
+
+		&__social {
+			margin-right: 0;
+		}
+
+		&__menu {
+			margin-top: 30px;
+		}
+
+		&__contact {
+			margin-top: 30px;
+		}
+		
+	}
+}
