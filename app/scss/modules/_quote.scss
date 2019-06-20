@@ -1,0 +1,21 @@
+.main__quote {
+	position: relative;
+	max-width: 425px;
+	font-size: 16px;
+    line-height: 23px;
+    font-style: italic;
+    background: #fff;
+    padding: 43px 55px;
+    border-radius: 48px;
+    box-shadow: 0px 0px 15px -1px rgba(201,201,201,1);
+
+    &:before {
+    	content: '';
+    	width: 20px;
+    	position: absolute;
+    	right: -20px;
+    	height: 30px;
+    	background: url(../img/promo__arrow.png);
+    	background-repeat: no-repeat;
+    }
+}
