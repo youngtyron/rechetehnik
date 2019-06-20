@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Дмитрий Макеев</title>
 	<link href='css/style.css' media='screen, projection' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 	<link href="../img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 </head>
 <body>
@@ -72,22 +74,22 @@
 				<h2 class="main__title actions__title">Я&nbsp;помогу вам и&nbsp;вашим сотрудникам:</h2>
 				<div class="actions__list">
 					<div class="actions__item">
-						<img src="img/actions__icon1.png" alt="Публичные выступления" class="actions__icon">
+						<img src="img/actions__icon1.svg" alt="Публичные выступления" class="actions__icon">
 						<h3 class="actions__subtitle">Выступать публично</h3>
 						<p class="actions__text">для того, чтобы управлять, продавать, продвигать</p>
 					</div>
 					<div class="actions__item">
-						<img src="img/actions__icon1.png" alt="Публичные выступления" class="actions__icon">
+						<img src="img/actions__icon2.svg" alt="Рупор" class="actions__icon">
 						<h3 class="actions__subtitle">Развить голос</h3>
 						<p class="actions__text">для того, чтобы привлекать, впечатлять, очаровывать</p>
 					</div>
 					<div class="actions__item">
-						<img src="img/actions__icon1.png" alt="Публичные выступления" class="actions__icon">
+						<img src="img/actions__icon3.svg" alt="Идея" class="actions__icon">
 						<h3 class="actions__subtitle">Формулировать мысли</h3>
 						<p class="actions__text">лаконично и&nbsp;ёмко, для того, чтобы убеждать и&nbsp;побеждать</p>
 					</div>
 					<div class="actions__item">
-						<img src="img/actions__icon1.png" alt="Публичные выступления" class="actions__icon">
+						<img src="img/actions__icon4.svg" alt="Выступление" class="actions__icon">
 						<h3 class="actions__subtitle">Подготовить важное выступление</h3>
 						<p class="actions__text">для того, чтобы достичь его цели на&nbsp;100%</p>
 					</div>
@@ -107,28 +109,34 @@
 			<div class="advantages__content">
 				<h2 class="main__title advantages__title">Почему мне доверяют</h2>
 				<div class="advantages__list">
-					<div class="advantages__item">
+					<div class="advantages__item advantages__item--education">
 						<img src="img/advantages__icon1.svg" alt="Образование" class="advantages__icon">
 						<h3 class="advantages__subtitle"><a class="advantages__link" href="#">Образование</a></h3>
-						<p class="advantages__text">СПбГАТИ Кафедра речи &#8470;&nbsp;1&nbsp;в РФ</p>
-						<p class="advantages__text">IGRO Школа тренеров И.&nbsp;Родченко</p>
-						<p class="advantages__text">&laquo;Синтон&raquo; Тренинг тренеров О.&nbsp;Паратновой</p>
-						<p class="advantages__text">Isaac Pintosevich Sistems Тренинги по&nbsp;продажам и&nbsp;личной эффективности</p>
+						<div class="advantages__text--wrap">
+							<p class="advantages__text">СПбГАТИ Кафедра речи &#8470;1&nbsp;в РФ</p>
+							<p class="advantages__text">IGRO Школа тренеров И.&nbsp;Родченко</p>
+							<p class="advantages__text">&laquo;Синтон&raquo; Тренинг тренеров <br> О.&nbsp;Паратновой</p>
+							<p class="advantages__text">Isaac Pintosevich Sistems Тренинги по&nbsp;продажам и&nbsp;личной эффективности</p>
+						</div>
 					</div>
-					<div class="advantages__item">
-						<img src="img/advantages__icon2.svg" alt="" class="advantages__icon">
+					<div class="advantages__item advantages__item--experience">
+						<img src="img/advantages__icon2.svg" alt="Опыт" class="advantages__icon">
 						<h3 class="advantages__subtitle"><a class="advantages__link" href="#">Опыт</a></h3>
-						<p class="advantages__text">13 лет практики</p>
-						<p class="advantages__text">18&nbsp;000 довольных учеников</p>
-						<p class="advantages__text">50&nbsp;крупнейших компаний</p>
-						<p class="advantages__text">30&nbsp;фильмов с&nbsp;моим участием на&nbsp;ТВ</p>
-						<p class="advantages__text">Официальный голос РЖД</p>
+						<div class="advantages__text--wrap">
+							<p class="advantages__text">13 лет практики</p>
+							<p class="advantages__text">18&nbsp;000 довольных учеников</p>
+							<p class="advantages__text">50&nbsp;крупнейших компаний</p>
+							<p class="advantages__text">30&nbsp;фильмов с&nbsp;моим участием на&nbsp;ТВ</p>
+							<p class="advantages__text">Официальный голос РЖД</p>
+						</div>
 					</div>
 					<div class="advantages__item">
-						<img src="img/advantages__icon3.png" alt="" class="advantages__icon">
+						<img src="img/advantages__icon3.png" alt="Книга" class="advantages__icon advantages__icon--book">
 						<h3 class="advantages__subtitle"><a class="advantages__link" href="#">Книги</a></h3>
-						<p class="advantages__text">Выступай без страха и&nbsp;бумажки</p>
-						<p class="advantages__text">Голос, который хочется слушать</p>
+						<div class="advantages__text--wrap">
+							<p class="advantages__text">Выступай без страха и&nbsp;бумажки</p>
+							<p class="advantages__text">Голос, который хочется слушать</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -139,10 +147,18 @@
 				<h2 class="main__title reviews__title">Отзывы</h2>
 				<div class="reviews__list">
 					<div class="reviews__item">
-						
+						<div class="reviews__quote--wrap">
+							<div class="main__quote reviews__quote">Дмитрий, спасибо большое за&nbsp;тренинг! Вы&nbsp;раскрываете в&nbsp;людях большой потенциал и&nbsp;даете возможность побороть свой страх перед обществом. Этот тренинг полезен абсолютно для всех! Вся программа была ИНТЕРЕСНО построена и&nbsp;дала отличные результаты! <a href="#" class="reviews__link">Читать полностью</a></div>
+							<p class="reviews__text"><b>Крамар Виктория,</b> <br> Руководитель Event-агенства</p>
+						</div>
+						<div class="reviews__quote--wrap">
+							<div class="main__quote reviews__quote">Дмитрий, спасибо большое за&nbsp;тренинг! Вы&nbsp;раскрываете в&nbsp;людях большой потенциал и&nbsp;даете возможность побороть свой страх перед обществом. Этот тренинг полезен абсолютно для всех! Вся программа была ИНТЕРЕСНО построена и&nbsp;дала отличные результаты! <a href="#" class="reviews__link">Читать полностью</a></div>
+							<p class="reviews__text"><b>Крамар Виктория,</b> <br> Руководитель Event-агенства</p>
+						</div>
 					</div>
 					<div class="reviews__video">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/x1ro8nhBI8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe src="https://www.youtube.com/embed/x1ro8nhBI8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<a href="#" class="main__btn reviews__btn">Посмотреть все отзывы</a>
 					</div>
 				</div>
 			</div>
@@ -153,46 +169,56 @@
 				<h2 class="main__title programs__title">Мои программы</h2>
 				<div class="programs__list">
 					<div class="programs__item">
-						<img src="img/programs__icon1.png" alt="" class="programs__icon">
+						<img src="img/programs__icon1.svg" alt="Оратор" class="programs__icon">
 						<h3 class="programs__subtitle">Блестящий оратор</h3>
-						<p class="programs__text">Избавитесь от&nbsp;волнения и&nbsp;страха</p>
-						<p class="programs__text">Освободите тело и&nbsp;дыхание</p>
-						<p class="programs__text">Увеличите силу голоса</p>
-						<p class="programs__text">Научитесь держать контакт и&nbsp;управлять вниманием аудитории</p>
-						<p class="programs__text">Сможете легко подготовить эффективное выступление</p>
+						<div class="programs__text--wrap">
+							<p class="programs__text">Избавитесь от&nbsp;волнения и&nbsp;страха</p>
+							<p class="programs__text">Освободите тело и&nbsp;дыхание</p>
+							<p class="programs__text">Увеличите силу голоса</p>
+							<p class="programs__text">Научитесь держать контакт и&nbsp;управлять вниманием аудитории</p>
+							<p class="programs__text">Сможете легко подготовить эффективное выступление</p>
+						</div>
 						<a class="programs__link" href="#">Подробнее&nbsp;&rarr;</a>
 					</div>
 					<div class="programs__item">
-						<img src="img/programs__icon1.png" alt="" class="programs__icon">
+						<img src="img/programs__icon2.svg" alt="Рука" class="programs__icon">
 						<h3 class="programs__subtitle">Коротко и ясно</h3>
-						<p class="programs__text"><b>Научитесь:</b> упаковывать мысли в&nbsp;короткие и&nbsp;ёмкие фразы, убеждать собеседника за&nbsp;60&nbsp;секунд.</p>
-						<p class="programs__text"><b>Повысите эффективность:</b> совещаний, переговоров, выступлений</p>
+						<div class="programs__text--wrap">
+							<p class="programs__text"><b>Научитесь:</b> упаковывать мысли в&nbsp;короткие и&nbsp;ёмкие фразы, убеждать собеседника за&nbsp;60&nbsp;секунд.</p>
+							<p class="programs__text"><b>Повысите эффективность:</b> совещаний, переговоров, выступлений</p>
+						</div>
 						<a class="programs__link" href="#">Подробнее&nbsp;&rarr;</a>
 					</div>
 					<div class="programs__item">
-						<img src="img/programs__icon1.png" alt="" class="programs__icon">
+						<img src="img/programs__icon3.svg" alt="Птица" class="programs__icon">
 						<h3 class="programs__subtitle">Голос, который хочется слушать</h3>
-						<p class="programs__text">Избавитесь от&nbsp;напряжения в&nbsp;голосе</p>
-						<p class="programs__text">Раскроете своё природное звучание</p>
-						<p class="programs__text">Обретете силу и&nbsp;выносливость</p>
-						<p class="programs__text">Улучшите тембр и&nbsp;дикцию</p>
+						<div class="programs__text--wrap">
+							<p class="programs__text">Избавитесь от&nbsp;напряжения в&nbsp;голосе</p>
+							<p class="programs__text">Раскроете своё природное звучание</p>
+							<p class="programs__text">Обретете силу и&nbsp;выносливость</p>
+							<p class="programs__text">Улучшите тембр и&nbsp;дикцию</p>
+						</div>
 						<a class="programs__link" href="#">Подробнее&nbsp;&rarr;</a>
 					</div>
 					<div class="programs__item">
-						<img src="img/programs__icon1.png" alt="" class="programs__icon">
+						<img src="img/programs__icon4.svg" alt="Цель" class="programs__icon">
 						<h3 class="programs__subtitle">Точно в&nbsp;цель</h3>
-						<p class="programs__text"><b>Будете знать:</b> чего ожидает и&nbsp;опасается инвестор, объем рынка, главную &laquo;боль&raquo; клиентов, стратегию развития будущей компании</p>
-						<p class="programs__text"><b>Будете уметь:</b> выстроить эффективное выступление, настроить себя на&nbsp;уверенность</p>
+						<div class="programs__text--wrap">
+							<p class="programs__text"><b>Будете знать:</b> чего ожидает и&nbsp;опасается инвестор, объем рынка, главную &laquo;боль&raquo; клиентов, стратегию развития будущей компании</p>
+							<p class="programs__text"><b>Будете уметь:</b> выстроить эффективное выступление, настроить себя на&nbsp;уверенность</p>
+						</div>
 						<a class="programs__link" href="#">Подробнее&nbsp;&rarr;</a>
 					</div>
 					<div class="programs__item">
-						<img src="img/programs__icon1.png" alt="" class="programs__icon">
+						<img src="img/programs__icon5.svg" alt="Выступление" class="programs__icon">
 						<h3 class="programs__subtitle">Выступление &laquo;под ключ&raquo;</h3>
-						<p class="programs__text">Изучим аудиторию</p>
-						<p class="programs__text">Найдём &laquo;мотивационные&raquo; кнопки</p>
-						<p class="programs__text">Найдём факты и&nbsp;истории</p>
-						<p class="programs__text">Создадим структуру и&nbsp;слайды</p>
-						<p class="programs__text">Отрепетируем выступление</p>
+						<div class="programs__text--wrap">
+							<p class="programs__text">Изучим аудиторию</p>
+							<p class="programs__text">Найдём &laquo;мотивационные&raquo; кнопки</p>
+							<p class="programs__text">Найдём факты и&nbsp;истории</p>
+							<p class="programs__text">Создадим структуру и&nbsp;слайды</p>
+							<p class="programs__text">Отрепетируем выступление</p>
+						</div>
 						<a class="programs__link" href="#">Подробнее&nbsp;&rarr;</a>
 					</div>
 				</div>
@@ -202,8 +228,8 @@
 		<div class="training">
 			<div class="training__content">
 				<h2 class="main__title training__title">Сложно выбрать тренинг?</h2>
-				<p class="training__text">Опишите свою ситуацию, цель и&nbsp;получите индивидуальную программу со&nbsp;стоимостью на&nbsp;e-mail</p>
-				<a href="#" class="training__link">Оставить заявку</a>
+				<p class="training__text">Опишите свою ситуацию, цель и&nbsp;получите индивидуальную <br> программу со&nbsp;стоимостью на&nbsp;e-mail</p>
+				<a href="#" class="main__btn training__btn">Оставить заявку</a>
 			</div>
 		</div>
 
@@ -212,25 +238,31 @@
 				<h2 class="main__title timetable__title">Расписание</h2>
 				<div class="timetable__list">
 					<div class="timetable__item">
-						<img src="img/timetable__img3.jpg" alt="" class="timetable__img">
-						<p class="timetable__date">23-24&nbsp;марта, 10:00&ndash;18:00</p>
-						<h3 class="timetable__subtitle">Голос, который хочется слушать</h3>
-						<p class="timetable__adress">Компания &laquo;Ораторика&raquo; Москва, 1-ый Обыденский, д.10</p>
-						<a class="timetable__link" href="#">Записаться&nbsp;&rarr;</a>
+						<img src="img/timetable__img1.jpg" alt="Аудитория" class="timetable__img">
+						<div class="timetable__wrap">
+							<p class="timetable__date">23-24&nbsp;марта, 10:00&ndash;18:00</p>
+							<a href="#" class="timetable__subtitle">Голос, который хочется слушать</a>
+							<p class="timetable__address">Компания &laquo;Ораторика&raquo; Москва, 1-ый Обыденский, д.10</p>
+							<a class="timetable__link" href="#">Записаться&nbsp;&rarr;</a>
+						</div>
 					</div>
 					<div class="timetable__item">
-						<img src="img/timetable__img3.jpg" alt="" class="timetable__img">
-						<p class="timetable__date">23-24&nbsp;марта, 10:00&ndash;18:00</p>
-						<h3 class="timetable__subtitle">Голос, который хочется слушать</h3>
-						<p class="timetable__adress">Компания &laquo;Ораторика&raquo; Москва, 1-ый Обыденский, д.10</p>
-						<a class="timetable__link" href="#">Записаться&nbsp;&rarr;</a>
+						<img src="img/timetable__img2.jpg" alt="Лектор" class="timetable__img">
+						<div class="timetable__wrap">
+							<p class="timetable__date">23-24&nbsp;марта, 10:00&ndash;18:00</p>
+							<a href="#" class="timetable__subtitle">Голос, который хочется слушать</a>
+							<p class="timetable__address">Компания &laquo;Ораторика&raquo; Москва, 1-ый Обыденский, д.10</p>
+							<a class="timetable__link" href="#">Записаться&nbsp;&rarr;</a>
+						</div>
 					</div>
 					<div class="timetable__item">
-						<img src="img/timetable__img3.jpg" alt="" class="timetable__img">
-						<p class="timetable__date">23-24&nbsp;марта, 10:00&ndash;18:00</p>
-						<h3 class="timetable__subtitle">Голос, который хочется слушать</h3>
-						<p class="timetable__adress">Компания &laquo;Ораторика&raquo; Москва, 1-ый Обыденский, д.10</p>
-						<a class="timetable__link" href="#">Записаться&nbsp;&rarr;</a>
+						<img src="img/timetable__img3.jpg" alt="Слушатели" class="timetable__img">
+						<div class="timetable__wrap">
+							<p class="timetable__date">23-24&nbsp;марта, 10:00&ndash;18:00</p>
+							<a href="#" class="timetable__subtitle">Голос, который хочется слушать</a>
+							<p class="timetable__address">Компания &laquo;Ораторика&raquo; Москва, 1-ый Обыденский, д.10</p>
+							<a class="timetable__link" href="#">Записаться&nbsp;&rarr;</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -239,6 +271,38 @@
 		<div class="customers">
 			<div class="customers__content">
 				<h2 class="main__title customers__title">Клиенты</h2>
+				<div class="customers__slider multiple-items">
+					<div class="customers__img--wrap">
+						<img src="img/customers__logo.png" alt="Логотип" class="customers__img">
+					</div>
+					<div class="customers__img--wrap">
+						<img src="img/customers__logo2.png" alt="Логотип" class="customers__img">
+					</div>
+					<div class="customers__img--wrap">
+						<img src="img/customers__logo3.png" alt="Логотип" class="customers__img">
+					</div>
+					<div class="customers__img--wrap">
+						<img src="img/customers__logo4.png" alt="Логотип" class="customers__img">
+					</div>
+					<div class="customers__img--wrap">
+						<img src="img/customers__logo5.svg" alt="Логотип" class="customers__img">
+					</div>
+					<div class="customers__img--wrap">
+						<img src="img/customers__logo.png" alt="Логотип" class="customers__img">
+					</div>
+					<div class="customers__img--wrap">
+						<img src="img/customers__logo2.png" alt="Логотип" class="customers__img">
+					</div>
+					<div class="customers__img--wrap">
+						<img src="img/customers__logo3.png" alt="Логотип" class="customers__img">
+					</div>
+					<div class="customers__img--wrap">
+						<img src="img/customers__logo4.png" alt="Логотип" class="customers__img">
+					</div>
+					<div class="customers__img--wrap">
+						<img src="img/customers__logo5.svg" alt="Логотип" class="customers__img">
+					</div>
+				</div>
 			</div>
 		</div>
 
@@ -253,10 +317,10 @@
 						<img src="img/logo__fb.svg" alt="facebook" class="icon__img">
 					</a>
 					<a href="#" class="icon__link" target="_blank">
-						<img src="img/logo__fb.svg" alt="facebook" class="icon__img">
+						<img src="img/logo__vk.svg" alt="vk" class="icon__img">
 					</a>
 					<a href="#" class="icon__link" target="_blank">
-						<img src="img/logo__fb.svg" alt="facebook" class="icon__img">
+						<img src="img/logo__inst.svg" alt="instagram" class="icon__img">
 					</a>
 				</div>
 			</div>
@@ -281,6 +345,7 @@
 		</div>
 	</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="js/slick.min.js"></script>
 <script src="js/js-main.js"></script>
 </body>
 </html>

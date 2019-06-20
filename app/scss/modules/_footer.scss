@@ -9,12 +9,11 @@
 		justify-content: space-between;
 		max-width: 1280px;
 		margin: 0 auto;
-		padding: 58px 60px 123px;
+		padding: 58px 64px 123px;
 	}
 
 	&__social {
-		max-width: 450px;
-		margin-right: 90px;
+		max-width: 380px;
 	}
 
 	&__logo {
@@ -22,21 +21,23 @@
 	}
 
 	&__text {
-		margin-top: 30px;
+		margin-top: 24px;
+		font-size: 16px;
+		line-height: 21px;
 	}
 
 	&__menu {
 		max-width: 270px;
 		display: flex;
-		margin-top: 74px;
+		margin-top: 61px;
 	}
 
 	&__list {
-		margin-right: 60px;
+		margin-right: 53px;
 	}
 
 	&__item {
-		margin-bottom: 5px;
+		margin-bottom: 9px;
 	}
 
 	&__link {
@@ -50,11 +51,13 @@
 
 	&__contact {
 		max-width: 250px;
-		margin-top: 74px;
+		margin-top: 61px;
 	}
 
 	&__phone {
 		transition: .6s;
+		font-size: 21px;
+		line-height: 24px;
 
 		&:hover {
 			color: #f59206;
@@ -63,9 +66,11 @@
 
 	&__email {
 		display: inline-block;
-		margin-top: 10px;
+		margin-top: 8px;
 		text-decoration: underline;
 		transition: .6s;
+		font-size: 21px;
+		line-height: 24px;
 
 		&:hover {
 			color: #f59206;
@@ -74,7 +79,7 @@
 }
 
 .icon {
-	margin-top: 25px;
+	margin-top: 30px;
 
 	&__link {
 		margin-right: 5px;
@@ -90,10 +95,6 @@
 		&__content {
 			flex-direction: column;
 			padding: 60px 20px;
-		}
-
-		&__social {
-			margin-right: 0;
 		}
 
 		&__menu {
