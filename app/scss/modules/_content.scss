@@ -13,11 +13,11 @@
 
 	&__slogan {
 		max-width: 540px;
-		margin-left: 84px;
+		margin-left: 70px;
 	}
 
 	&__title {
-		font-size: 55px;
+		font-size: 50px;
     	margin-top: 25px;
     	margin-left: 6px;
     	line-height: 65px;
@@ -39,12 +39,15 @@
 
 	&__quote {
 		margin-top: 38px;
-		margin-left: 68px;
+		margin-left: 55px;
 		margin-bottom: 20px;
 	}
 
 	&__img--wrap {
 		width: 42%;
+		display: flex;
+    	justify-content: center;
+    	align-items: flex-end;
 	}
 
 	&__img {
@@ -74,11 +77,11 @@
 		&__img--wrap {
 			width: 100%;
 			text-align: center;
-			margin-top: 20px;
+			margin-top: 50px;
 		}
 
 		&__img {
-			max-width: 200px;
+			//max-width: 200px;
 		}
 	}
 
@@ -133,7 +136,7 @@
 	.actions {
 
 		&__content {
-			padding: 40px 20px 0;
+			padding: 40px 20px 20px;
 		}
 
 		&__title {
@@ -184,7 +187,7 @@
 		color: #0097bd;
 		margin-top: 10px;
     	margin-right: 10px;
-    	padding: 18px 33px;
+    	padding: 19px 33px 18px;
 
     	&:hover {
     		background: #d1e5ec;
@@ -284,7 +287,7 @@
 	.advantages {
 
 		&__content {
-			padding: 40px 20px;
+			padding: 40px 20px 0;
 		}
 
 		&__list {
@@ -481,7 +484,7 @@
 	.programs {
 
 		&__content {
-			padding: 40px 20px 10px;
+			padding: 60px 20px 10px;
 		}
 
 		&__item {
@@ -524,6 +527,10 @@
 		border: 1px solid #d4d1d1;
 	}
 
+	&__img {
+		width: 100%;
+	}
+
 	&__wrap {
 		margin: 40px 30px;
 		padding: 0 5px;
@@ -540,7 +547,7 @@
 		color: #010101;
 		font-size: 16px;
 		font-weight: bold;
-		line-height: 27px;
+		line-height: 24px;
 		text-decoration: underline;
 		transition: .6s;
 		margin-bottom: 5px;
@@ -571,7 +578,7 @@
 	.timetable {
 
 		&__content {
-			padding: 40px 10px 10px;
+			padding: 60px 10px 10px;
 		}
 
 		&__title {
