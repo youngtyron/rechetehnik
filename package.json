@@ -32,6 +32,7 @@
   "dependencies": {
     "check": "^1.0.0",
     "g": "^2.0.1",
+    "jquery-modal": "^0.9.2",
     "npm": "^6.9.0",
     "updates": "^8.1.0"
   }
