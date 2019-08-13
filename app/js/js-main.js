@@ -31,3 +31,27 @@ $('.multiple-items').slick({
     }
   ]
 });
+
+function openLightBox(){
+  var modal = $('.modal');
+$('.show-modal').on('click', function() {
+ modal.fadeIn();
+});
+
+$('.close-modal').on('click', function() {
+ modal.fadeOut();
+});
+}
+openLightBox();
+
+function openLightBox2(){
+  var modal2 = $('.modal2');
+$('.show-modal2').on('click', function() {
+ modal2.fadeIn();
+});
+
+$('.close-modal2').on('click', function() {
+ modal2.fadeOut();
+});
+}
+openLightBox2();
