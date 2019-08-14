@@ -23,6 +23,8 @@ $(document).ready(function(){
 $('.multiple-items').slick({
   slidesToShow: 5,
   slidesToScroll: 5,
+  autoplay: true,
+  autoplaySpeed: 4000,
   arrows : false,
   responsive: [
     {

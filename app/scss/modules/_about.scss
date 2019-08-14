@@ -1,0 +1,134 @@
+.about-promo {
+	&__content {
+		padding: 9px 54px 0;
+		align-items: flex-end;
+	}
+
+	&__slogan {
+		margin-left: 85px;
+   	 	margin-bottom: 49px;
+	}
+
+	&__img--wrap {
+		margin-left: 45px;
+	}
+
+	&__img {
+		max-width: 473px;
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+
+	.about-promo {
+
+		&__content {
+			align-items: center;
+		}
+
+		&__slogan {
+			margin-left: 0;
+			margin-bottom: 10px;
+		}
+
+		&__img--wrap {
+			margin-left: 0;
+		}
+	}
+
+}
+
+// about
+
+.about {
+
+	&__content {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 36px 80px 65px;
+		text-align: center;
+	}
+
+	&__title {
+		margin-right: 13px;
+	}
+
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		margin-top: 42px;
+	}
+
+	&__item {
+		text-align: left;
+		background: #fff;
+		margin-left: 28px;
+		margin-bottom: 30px;
+    	max-width: 500px;
+    	width: 45%;
+    	padding: 10px 35px;
+    	position: relative;
+	}
+
+	&__icon {
+		width: 80px;
+	}
+
+	&__subtitle {
+		@include Comfortaa-Regular();
+		font-weight: bold;
+		margin-top: 30px;
+    	font-size: 36px;
+    	text-transform: uppercase;
+    	line-height: 24px;
+    	color: #040404;
+	}
+
+	&__text--wrap {
+		margin-top: 22px;
+	}
+
+	&__text {
+		font-size: 16px;
+		line-height: 21px;
+		margin-bottom: 9px;
+	}
+
+	&__link {
+		color: #008ad2;
+		transition: .6s;
+		font-size: 16px;
+		margin-top: 12px;
+		position: absolute;
+		bottom: 56px;
+
+		&:hover {
+			color: #f59206;
+		}
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+
+	.about {
+
+		&__content {
+			padding: 60px 20px 10px;
+		}
+
+		&__item {
+			margin-left: 0;
+			width: 100%;
+		}
+
+		&__subtitle {
+			font-size: 28px;
+		}
+
+		&__list {
+			margin-top: 0;
+		}
+	}
+
+}
