@@ -1,0 +1,46 @@
+.results {
+
+	&__content {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 77px 60px 101px;
+		text-align: left;
+	}
+
+	&__title {
+		margin-left: 68px;
+	}
+
+	&__list {
+		display: flex;
+		justify-content: center;
+		margin-top: 38px;
+		padding: 0 57px;
+		flex-wrap: wrap;
+	}
+
+	&__item {
+		width: calc(25% - 10px);
+	}
+
+	&__icon {
+		width: 77px;
+	}
+
+	&__subtitle {
+		text-transform: uppercase;
+		font-size: 16px;
+		line-height: 21px;
+		margin-top: 20px;
+	}
+}
+
+.duration {
+
+	&__content {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 38px 54px 0;
+		text-align: center;
+	}
+}
