@@ -1,20 +1,22 @@
 .reviews-promo {
 	&__content {
-		padding: 9px 54px 0;
+		padding: 9px 13px 0 54px;
 		align-items: flex-end;
 	}
 
 	&__slogan {
 		margin-left: 85px;
-   	 	margin-bottom: 49px;
+    	margin-bottom: 46px;
 	}
 
 	&__img--wrap {
-		margin-left: 45px;
+		margin-left: 56px;
+    	margin-top: 61px;
+    	width: 53%;
 	}
 
 	&__img {
-		max-width: 473px;
+		max-width: 616px;
 	}
 }
 
@@ -57,10 +59,6 @@
 
 	&__slider {
 		margin-top: 45px;
-	}
-
-	&__img {
-		width: 135px;
 	}
 }
 

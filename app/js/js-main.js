@@ -34,6 +34,44 @@ $('.multiple-items').slick({
   ]
 });
 
+$('.multiple-items2').slick({
+  slidesToShow: 5,
+  slidesToScroll: 5,
+  autoplay: true,
+  autoplaySpeed: 6000,
+  arrows : false,
+  responsive: [
+      {
+        breakpoint: 1165,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4
+        }
+      },
+      {
+        breakpoint: 865,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3
+        }
+      },
+      {
+        breakpoint: 625,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 500,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+});
+
 function openLightBox(){
   var modal = $('.modal');
 $('.show-modal').on('click', function() {
@@ -60,5 +98,5 @@ openLightBox2();
 
 
 jQuery(function(){
-  jQuery("a").lightBox();
+  jQuery(".galleryLetters").lightBox();
 });
