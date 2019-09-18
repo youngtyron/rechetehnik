@@ -57,3 +57,8 @@ $('.close-modal2').on('click', function() {
 });
 }
 openLightBox2();
+
+
+jQuery(function(){
+  jQuery("a").lightBox();
+});

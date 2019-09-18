@@ -24,6 +24,7 @@
 	.books-promo {
 
 		&__content {
+			padding: 0 20px;
 			align-items: center;
 		}
 
@@ -34,6 +35,8 @@
 
 		&__img--wrap {
 			margin-left: 0;
+			width: 100%;
+			margin-top: 20px;
 		}
 	}
 
@@ -46,9 +49,106 @@
 	&__content {
 		max-width: 1280px;
 		margin: 0 auto;
-		padding: 36px 80px 65px;
-		text-align: center;
+		padding: 87px 24px 40px;
+		text-align: left;
 	}
+
+	&__item {
+		display: flex;
+		margin-bottom: 92px;
+	}
+
+	&__item--second {
+		margin-left: 40px;
+	}
+
+	&__img--wrap {
+		width: 40%;
+	}
+
+	&__img--wrap-second {
+		margin-left: 20px;
+    	margin-top: 7px;
+	}
+
+	&__desc {
+		width: 51%;
+	}
+
+	&__title {
+		line-height: 52px;
+	}
+
+	&__text--wrap {
+		margin-top: 31px;
+		margin-bottom: 19px;
+	}
+
+	&__text {
+		font-size: 16px;
+		line-height: 21px;
+		margin-bottom: 20px;
+	}
+
+	&__text--list {
+		margin-top: -14px;
+    	padding-left: 17px;
+	}
+
+	&__text--item {
+		list-style: inherit;
+		font-size: 16px;
+		line-height: 30px;
+	}
+
+	&__btn--wrap {
+		margin-bottom: 17px;
+	}
+
+	&__btn {
+		padding: 19px 27px 16px;
+	}
+
+	&__btn--violet {
+		margin-left: 13px;
+		background-color: #7f00ce;
+
+		&:hover {
+			background-color: #a13be0;
+		}
+	}
+
+	&__link {
+		font-size: 16px;
+		display: inline-block;
+		color: #008ad2;
+    	text-decoration: underline;
+   	 	position: relative;
+    	margin-left: 25px;
+    	margin-top: 12px;
+
+		&:before {
+    		content: '';
+    		width: 20px;
+    		position: absolute;
+    		height: 20px;
+    		background: url(../img/students-link__icon.png);
+    		background-repeat: no-repeat;
+    		left: -24px;
+    	}
+	}
+
+		&__link--pdf {
+
+		&:before {
+    		height: 27px;
+    		background: url(../img/books-link__icon.png);
+    		width: 18px;
+    		top: -6px;
+    		background-repeat: no-repeat;
+    	}
+	}
+
 }
 
 @media only screen and (max-width : 1024px) {
@@ -57,6 +157,42 @@
 
 		&__content {
 			padding: 60px 20px 10px;
+		}
+
+		&__title {
+    		line-height: 35px;
+		}
+
+		&__item {
+			flex-direction: column;
+			margin-bottom: 50px;
+		}
+
+		&__item--second {
+			margin-left: 0;
+		}
+
+		&__img--wrap {
+			width: 100%;
+			margin-bottom: 20px;
+		}
+
+		&__img--wrap-second {
+			margin-left: 0;
+			margin-top: 30px;
+		}
+
+		&__desc {
+			width: 100%;
+		}
+
+		&__text--wrap {
+			margin-top: 10px;
+		}
+
+		&__btn--violet {
+			margin-left: 0;
+			margin-top: 20px;
 		}
 	}
 
