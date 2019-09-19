@@ -1,4 +1,5 @@
 .reviews-promo {
+
 	&__content {
 		padding: 9px 13px 0 54px;
 		align-items: flex-end;
@@ -43,28 +44,177 @@
 
 }
 
-// reviews
+// video-review
+
+.video-review {
+
+	&__content {
+		margin: 0 auto;
+    	text-align: center;
+    	padding: 68px 20px 30px;
+
+    	& iframe {
+    		max-width: 863px;
+    	}
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+
+	.video-review {
+
+		&__content {
+			padding: 30px 20px;
+
+			& iframe {
+    			height: 380px;
+    		}
+		}
+	}
+
+}
+
+// excerption
+
+
+.excerption {
+
+	&__content {
+		max-width: 980px;
+		margin: 0 auto;
+		padding: 60px 0 98px;
+		text-align: left;
+	}
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__item {
+		display: flex;
+    	margin-bottom: 60px;
+	}
+
+	&__text--wrap {
+		margin-left: 19px;
+		width: 180px;
+    	padding-left: 40px;
+	}
+
+	&__text--wrap-left {
+		margin-left: 0;
+		padding-left: 0;
+	}
+
+	&__img {
+		width: 135px;
+	}
+
+	&__text {
+		font-size: 16px;
+		line-height: 21px;
+		margin-top: 14px;
+	}
+
+	&__quote {
+		line-height: 21px;
+		font-style: normal;
+		max-width: 781px;
+    	padding: 34px 39px;
+
+    	&:before {
+    		content: '';
+    		width: 30px;
+    		position: absolute;
+    		right: -29px;
+    		top: 42px;
+    		height: 30px;
+    		background-repeat: no-repeat;
+    	}
+	}
+
+	&__quote-left {
+
+		margin-left: 13px;
+
+		&:before {
+    		background: url(../img/promo__arrow-left.png);
+    		background-repeat: no-repeat;
+    		left: -18px;
+    	}
+	}
+
+}
+
+@media only screen and (max-width : 1024px) {
+
+	.excerption {
+
+		&__content {
+			padding: 30px 20px;
+		}
+
+		&__item {
+			flex-direction: column;
+		}
+
+		&__text--wrap {
+			margin-left: 0;
+			padding-left: 0;
+			margin-top: 10px;
+		}
+
+		&__quote-left {
+			margin-left: 0;
+		}
+
+		&__quote {
+
+    		&:before {
+	    		display: none;
+    		}
+		}
+
+		&__quote-left {
+
+			&:before {
+	    		display: none;
+    		}
+		}
+	}
+
+}
 
 // letters
 
 .letters {
+
 	background: #f8f8f8;
 
 	&__content {
 		max-width: 1280px;
 		margin: 0 auto;
-		padding: 64px 72px 92px;
+		padding: 64px 72px 86px;
 		text-align: center;
 	}
 
 	&__slider {
-		margin-top: 45px;
+		margin-top: 31px;
 	}
 }
 
 @media only screen and (max-width : 1024px) {
 
 	.letters {
+
+		&__content {
+			padding: 20px;
+		}
+
+		&__title {
+			font-size: 20px;
+		}
 
 		&__slider {
 			display: flex;
