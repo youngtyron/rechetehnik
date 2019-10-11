@@ -312,6 +312,10 @@
 		margin: 0 auto;
 		padding: 58px 97px 29px 44px;
 		text-align: center;
+
+		&--target {
+			padding: 89px 97px 80px 44px;
+		}
 	}
 
 	&__title {
@@ -384,7 +388,7 @@
 	.reviews {
 
 		&__content {
-			padding: 40px 0 60px;
+			padding: 20px 0 60px;
 		}
 
 		&__list {
@@ -419,6 +423,10 @@
 		margin: 0 auto;
 		padding: 63px 34px 65px;
 		text-align: center;
+
+		&--target {
+			padding: 83px 34px 46px;
+		}
 	}
 
 	&__title {
@@ -441,6 +449,10 @@
     	padding: 37px 35px;
     	position: relative;
     	height: 478px;
+
+    	&--target {
+			height: auto;
+		}
 	}
 
 	&__icon {
@@ -490,6 +502,10 @@
 		&__item {
 			margin-left: 0;
 			height: 510px;
+
+			&--target {
+    			height: auto;
+			}
 		}
 
 		&__link {
