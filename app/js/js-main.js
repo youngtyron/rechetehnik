@@ -100,3 +100,15 @@ openLightBox2();
 jQuery(function(){
   jQuery(".galleryLetters").lightBox();
 });
+
+
+$(function () { 
+    $('.menu a').each(function () {
+        var location = window.location.href;
+        var link = this.href;
+        console.log(location, this.href)
+        if(location == link) {
+            $(this).addClass('active');
+        }
+    });
+});
