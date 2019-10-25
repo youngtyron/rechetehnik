@@ -1,0 +1,43 @@
+.corporate-promo {
+	&__content {
+		padding: 0 13px 0 54px;
+		align-items: flex-end;
+	}
+
+	&__slogan {
+		margin-left: 85px;
+    	margin-bottom: 27px;
+	}
+
+	&__img--wrap {
+		margin-left: 56px;
+    	width: 53%;
+	}
+
+	&__img {
+		max-width: 616px;
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+
+	.corporate-promo {
+
+		&__content {
+			align-items: center;
+			padding: 0 20px;
+		}
+
+		&__slogan {
+			margin-left: 0;
+			margin-bottom: 10px;
+		}
+
+		&__img--wrap {
+			margin-left: 0;
+			width: 100%;
+			margin-top: 20px;
+		}
+	}
+
+}

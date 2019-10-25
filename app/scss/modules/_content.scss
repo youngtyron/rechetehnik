@@ -219,6 +219,10 @@
 		margin: 0 auto;
 		padding: 78px 60px 23px;
 		text-align: center;
+
+		&--corporate {
+			padding: 26px 60px 71px;
+		}
 	}
 
 	&__title {
@@ -318,6 +322,10 @@
 
 		&--target {
 			padding: 89px 97px 80px 44px;
+		}
+
+		&--corporate {
+			padding: 38px 97px 59px 44px;
 		}
 	}
 
