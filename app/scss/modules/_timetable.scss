@@ -500,3 +500,169 @@
 	}
 
 }
+
+// Выступление под ключ
+
+.speech {
+
+	&__content {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 36px 80px 5px 115px;
+		text-align: center;
+	}
+
+	&__title {
+		margin-right: 13px;
+	}
+
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-top: 42px;
+
+		&--numbered {
+			padding: 0 21px;
+    		margin-top: 10px;
+    		margin-bottom: 0;
+		}
+	}
+
+	&__item {
+		text-align: left;
+    	background: #fff;
+    	margin-left: 5px;
+    	margin-bottom: 8px;
+    	max-width: 500px;
+    	width: 32%;
+    	padding: 10px 24px;
+    	position: relative;
+
+    	&--numbered {
+			list-style: inherit;
+			font-size: 16px;
+			line-height: 21px;
+			margin-bottom: 10px;
+		}
+
+		&--last {
+			width: 40%;
+		}
+	}
+
+	&__icon {
+		width: 80px;
+	}
+
+	&__subtitle {
+		@include Comfortaa-Regular();
+		font-weight: bold;
+		margin-top: 30px;
+    	font-size: 42px;
+    	text-transform: uppercase;
+    	line-height: 24px;
+    	color: #040404;
+	}
+
+	&__text--wrap {
+		margin-top: 27px;
+    	font-size: 16px;
+	}
+
+	&__text {
+		font-size: 16px;
+		line-height: 21px;
+		margin-bottom: 9px;
+	}
+
+	&__link {
+		color: #008ad2;
+		transition: .6s;
+		font-size: 16px;
+		margin-top: 12px;
+		position: absolute;
+		bottom: 56px;
+
+		&:hover {
+			color: #f59206;
+		}
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+
+	.speech {
+
+		&__content {
+			padding: 60px 20px 10px;
+		}
+
+		&__item {
+			margin-left: 0;
+			width: 100%;
+		}
+
+		&__subtitle {
+			font-size: 28px;
+		}
+
+		&__list {
+			margin-top: 0;
+		}
+	}
+
+}
+
+.result {
+
+	&__content {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 36px 80px 101px 78px;
+		text-align: left;
+		display: flex;
+	}
+
+	&__title {
+		margin-bottom: 32px;
+	}
+
+	&__desc {
+    	margin-left: 72px;
+	}
+
+	&__icon {
+		margin-right: 10px;
+		width: 80px;
+		float: left;
+	}
+
+	&__text {
+		margin-top: 20px;
+		font-size: 16px;
+		line-height: 21px;
+
+		&--wrap {
+			margin-top: 20px;
+			overflow: hidden;
+		}
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+
+	.result {
+
+		&__content {
+			padding: 20px 20px 10px;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		&__desc {
+			margin: 30px 0;
+		}
+	}
+
+}

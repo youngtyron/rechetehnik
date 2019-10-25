@@ -173,6 +173,10 @@
 		margin: 0 auto;
 		padding: 58px 60px 53px;
 		text-align: center;
+
+		&--speech {
+			padding: 98px 60px 76px;
+		}
 	}
 
 	&__text {
@@ -512,7 +516,7 @@
 
 		&__item {
 			margin-left: 0;
-			height: 510px;
+			height: 530px;
 
 			&--target {
     			height: auto;
@@ -770,4 +774,11 @@
 
 .active{
 	color: #0076cc;
+}
+
+@media only screen and (max-width : 1024px) {
+
+	.active{
+		color: #f59206;
+	}
 }
