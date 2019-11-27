@@ -7,6 +7,7 @@
 	&__slogan {
 		margin-left: 85px;
    	 	margin-bottom: 49px;
+   	 	min-width: 500px;
 	}
 
 	&__img--wrap {
@@ -30,6 +31,7 @@
 		&__slogan {
 			margin-left: 0;
 			margin-bottom: 10px;
+			min-width: auto;
 		}
 
 		&__img--wrap {
