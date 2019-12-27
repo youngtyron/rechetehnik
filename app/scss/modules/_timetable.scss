@@ -63,6 +63,10 @@
     	text-transform: uppercase;
    	 	font-size: 16px;
     	line-height: 21px;
+
+    	&--training {
+			max-width: 510px;
+		}
 	}
 
 	&__list {
@@ -75,6 +79,11 @@
     	&--target {
 			margin-top: 33px;
 			max-width: 784px;
+		}
+
+		&--training {
+			max-width: 990px;
+			margin-top: 82px;
 		}
 	}
 
@@ -254,7 +263,7 @@
 		}
 
 		&__subtitle {
-			font-size: 14px;
+			font-size: 12px;
 		}
 
 	}
@@ -406,6 +415,18 @@
 		font-size: 16px;
 		line-height: 21px;
 		margin-bottom: 9px;
+
+		&--list {
+			font-size: 16px;
+			line-height: 21px;
+			padding-left: 17px;
+			margin-top: 10px;
+		}
+
+		&--item {
+			list-style: inherit;
+			margin-top: 10px;
+		}
 	}
 }
 

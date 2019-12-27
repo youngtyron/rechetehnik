@@ -323,14 +323,6 @@
 		margin: 0 auto;
 		padding: 58px 97px 29px 44px;
 		text-align: center;
-
-		&--target {
-			padding: 89px 97px 80px 44px;
-		}
-
-		&--corporate {
-			padding: 38px 97px 59px 44px;
-		}
 	}
 
 	&__title {
@@ -781,4 +773,12 @@
 	.active{
 		color: #f59206;
 	}
+}
+
+.mb100 {
+	margin-bottom: 100px;
+}
+
+.pb0 {
+	padding-bottom: 0!important;
 }
