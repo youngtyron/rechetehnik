@@ -11,7 +11,7 @@
   "devDependencies": {
     "autoprefixer": "^7.2.6",
     "babel-core": "^6.26.3",
-    "browser-sync": "^2.26.5",
+    "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-babel": "^7.0.1",
     "gulp-browserify": "^0.5.1",
@@ -25,8 +25,8 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "gulp-watch": "^4.3.11",
-    "gulp.spritesmith": "^6.10.1",
-    "spritesmith": "^3.3.1",
+    "gulp.spritesmith": "^6.11.0",
+    "spritesmith": "^3.4.0",
     "yargs": "^9.0.1"
   },
   "dependencies": {

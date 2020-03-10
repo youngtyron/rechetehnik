@@ -96,6 +96,17 @@ $('.close-modal2').on('click', function() {
 }
 openLightBox2();
 
+function openLightBox3(){
+  var modal3 = $('.modal3');
+$('.show-modal3').on('click', function() {
+ modal3.fadeIn();
+});
+
+$('.close-modal3').on('click', function() {
+ modal3.fadeOut();
+});
+}
+openLightBox3();
 
 jQuery(function(){
   jQuery(".galleryLetters").lightBox();
