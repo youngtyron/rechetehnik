@@ -99,6 +99,7 @@ openLightBox2();
 function openLightBox3(){
   var modal3 = $('.modal3');
 $('.show-modal3').on('click', function() {
+ cancelSteps();
  modal3.fadeIn();
 });
 
@@ -121,3 +122,29 @@ $(function () {
         }
     });
 });
+
+function nextStep(){
+  $('.step_opened input.input__btn').on('click', function(e) {
+    var next = $(e.target).attr('data-next');
+    if (next == 2) {
+      $('.step_opened').removeClass('step_opened').addClass('step_closed');
+      $('.step2').removeClass('step_closed').addClass('step_opened');
+      document.body.scrollTo(0,0);
+      nextStep();
+    } else if (next == 3) {
+      $('.step_opened').removeClass('step_opened').addClass('step_closed');
+      $('.step3').removeClass('step_closed').addClass('step_opened');
+      document.body.scrollTo(0,0);
+      nextStep();
+    } else if (next == 'end') {
+      $('.modal3').fadeOut();
+      document.body.scrollTo(0,0);
+    }
+  });
+}
+nextStep();
+
+function cancelSteps(){
+  $('.step_opened').removeClass('step_opened').addClass('step_closed');
+  $('.step1').removeClass('step_closed').addClass('step_opened');
+}

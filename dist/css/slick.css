@@ -117,3 +117,12 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+.modal3{
+    position: absolute; 
+}
+.step_opened{
+    display: block;
+}
+.step_closed{
+    display: none;
+}
