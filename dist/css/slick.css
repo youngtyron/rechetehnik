@@ -126,3 +126,9 @@
 .step_closed{
     display: none;
 }
+.result_closed{
+    display: none;
+}
+.notification_closed{
+    display: none;
+}
